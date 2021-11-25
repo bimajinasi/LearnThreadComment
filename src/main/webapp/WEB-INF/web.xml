@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CommentSimple</servlet-name>
+  	<display-name>CommentSimple</display-name>
+  	<description></description>
+  	<servlet-class>com.bima.thread.CommentSimple</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CommentSimple</servlet-name>
+  	<url-pattern>/CommentSimple</url-pattern>
+  </servlet-mapping>
 </web-app>
